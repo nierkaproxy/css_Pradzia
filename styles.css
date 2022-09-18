@@ -1,0 +1,45 @@
+span {
+    color: rgb(209, 209, 66);
+}
+
+h1, h2 {
+    color: rgb(36, 153, 36);
+}
+
+li {
+    font-weight: bold;
+}
+
+#uli, #ulis {
+    color: blue;
+    text-underline-position: under;
+}
+
+
+th, td {
+    border: 3px inset;
+}
+
+th {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+#bl, #blu {
+    color: blue;
+    font-weight: bold;
+}
+
+#pi, #pin {
+    color: rgb(236, 116, 156);
+    font-weight: bold;
+}
+
+form {
+    color: rgb(226, 117, 0);
+    font-weight: bolder;
+}
+
+body {
+    padding: 20px 20px;
+}

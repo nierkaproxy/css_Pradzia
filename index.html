@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, suscipit ad dignissimos eaque <span> aperiam sequi impedit </span>accusamus cumque et nemo accusantium, atque illum. <span>Quaerat tempora pariatur illo</span> doloribus ullam quibusdam! Rem omnis distinctio natus doloremque quae molestiae amet vitae! Corporis, vero ullam? A quo quisquam <span>nemo quibusdam quidem libero eius? </span></p>
+
+
+    <h2>Our Locations</h2>
+    <ul>
+        <li>
+            USA
+            <ul id="uli">
+                <li>New York</li>
+                <li>Columbus</li>
+                <li>Austin</li>
+                <li>Philly</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            World
+            <ul id="ulis">
+                <li>Ottawa</li>
+                <li>Sydney</li>
+            </ul>
+        </li>
+    </ul>
+
+<h2>Upcoming Clases</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>Location</th>
+        <th>Topic</th>
+    </tr>
+</thead>
+
+    <tr>
+        <td id="bl">New York</td>
+        <td id="pin">JavaScript & jQuery</td>
+    </tr>
+
+    <tr>
+        <td id="blu">San Fransisco</td>
+        <td id="pi">HTML & CSS</td>
+    </tr>
+</table>
+
+<h2>Sign Up!</h2>
+
+<form action="/" method="post">
+    <div>
+        <label for="fname">Name:</label>
+        <input type="text" name="fname" id="fname">
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+        <label for="loc">Location</label>
+
+        <select name="loc" id="loc">
+            <option value="">--Please select an option--</option>
+            <option value="spain">Spain</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="lithuania">Lithuania</option>
+        </select>
+    </div>
+
+    <fieldset>
+        <legend>Gender</legend>
+        <br>
+
+        <input type="radio" id="male" name="males">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="famales">
+        <label for="female">Female</label><br>
+    </fieldset>
+<div>
+    <label for="experience">Experience</label>
+</div>
+    <textarea name="experience" id="experience" cols="33" rows="5"></textarea>
+<div>
+    <input type="submit" value="Sign Up" />
+</div>
+</form>
+
+
+</body>
+</html>
